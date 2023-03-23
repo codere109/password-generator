@@ -1,0 +1,42 @@
+body{
+    background-color: darkcyan;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+
+}
+
+h1{
+    color: rgb(85, 23, 117);
+    font-size: x-large;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+#password-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 80px;
+    font-size: large;
+}
+
+#password-box{
+    display: block;
+    box-sizing: border-box;
+    border: 3px ridge rgba(255, 255, 0, 0.64);
+    border-radius: 4px;
+    margin: 30px;
+    padding: 80px;
+
+}
+
+button{
+    padding: 15px;
+}
